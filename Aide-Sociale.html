@@ -395,20 +395,20 @@ Le stock est en cours de vérification
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Êtes-vous citoyen du MALI?",
-              answers: [ { text: "Oui" }, { text: "Non" } ]
+              title: "Are you a citizen of MALI?",
+              answers: [ { text: "Yes" }, { text: "No" } ]
             },
                                                              {
-              title: "Avez-vous une pièce d'identité MALIENNE?",
-              answers: [ { text: "Oui" }, { text: "Non" } ]
+              title: "Do you have a MALIAN ID?",
+              answers: [ { text: "Yes" }, { text: "No" } ]
             },
             {
-              title: "Choisissez votre sexe?",
-              answers: [ { text: "Mâle" }, { text: "Femelle" } ]
+              title: "Choose your Gender?",
+              answers: [ { text: "Male" }, { text: "Female" } ]
             },
             {
-              title: "Sélectionnez votre tranche d'âge?",
-              answers: [ { text: "18 - 20 années" }, { text: "21 - 25 années" }, { text: "26 - 30 années" }, { text: "30 années au-dessus" } ]
+              title: "Select Your Age Range?",
+              answers: [ { text: "18 - 20 years" }, { text: "21 - 25 years" }, { text: "26 - 30 years" }, { text: "30 years Above" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
 </div>
